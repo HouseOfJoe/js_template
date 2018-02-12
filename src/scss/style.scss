@@ -1,0 +1,23 @@
+$primary:#00f9ff;
+$info-bar:#7997a1;
+$nav-blue:#030056;
+
+body{
+  margin-top:105px;
+}
+
+.navbar{
+  box-shadow:2px 2px 8px $primary;
+  opacity:0.9;
+  background:#fff;
+  background-color: $nav-blue;
+
+  .nav-item{
+    font-size:1.4rem;
+    padding-right:20px;
+  }
+}
+
+.gray{
+  background-color: $info-bar;
+}
